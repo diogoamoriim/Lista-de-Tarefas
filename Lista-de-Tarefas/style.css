@@ -54,21 +54,6 @@ button:hover {
     color: #F3F3E0;
 }
 
-/*#mensagem {
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #F3F3E0;
-    padding: 10px 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.2);
-    display: none;
-    z-index: 999;
-    font-weight: bold;
-    transition: opacity 0.3s ease;
-}*/
-
 ul {
     list-style: none;
     padding: 0;
