@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #183B4E; 
+}
+
+.container {
+    text-align: center;
+    background-color: #F3F3E0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(221, 168, 83);
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid #DDA853;
+}
+
+h1 {
+    color: #27548A;
+}
+
+p {
+    color: #27548A;
+    font-size: 1.1em;
+}
+
+button {
+    background-color: #27548A;
+    color: #F3F3E0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #183B4E;
+    color: #F3F3E0;
+}
+
+#limparTudo {
+    background-color: #DDA853;
+}
+
+#limparTudo:hover {
+    background-color: #183B4E;
+    color: #F3F3E0;
+}
+
+/*#mensagem {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #F3F3E0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    display: none;
+    z-index: 999;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}*/
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    background-color: #F3F3E0;
+    border-color: #DDA853;
+    color: #27548A;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(221, 168, 83);
+}
+
+/* Estilo para o campo de entrada */
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #DDA853;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #DDA853;
+    box-shadow: inset 0 2px 4px rgb(221, 168, 83);
+}
+
+button.remover {
+    background-color: #DDA853;
+    color: #F3F3E0;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button.remover:hover {
+    background-color: #183B4E;
+}
+
+button.editar {
+    background-color: #27548A;
+    color: #F3F3E0;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button.editar:hover {
+    background-color: #183B4E;
+}
+
