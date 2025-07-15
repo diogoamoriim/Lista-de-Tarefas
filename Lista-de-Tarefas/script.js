@@ -1,7 +1,5 @@
 let tarefas = []
 
-//const mensagem = document.getElementById("mensagem")
-
 function adicionarTarefas() {
     const inputTarefa = document.getElementById("inputTarefa");
     let tarefa = inputTarefa.value.trim();
@@ -47,7 +45,7 @@ function renderizarTarefas() {
         listaTarefas.appendChild(novaTarefa);
     };
 
-    // Verifica se há tarefas na lista e exibe ou oculta o botão "Limpar Tudo" (utilizando o operador ternário --- tarefas.length > 0 ? "inline-block" : "none" --- para definir o estilo de exibição)
+    // Verifica se há tarefas na lista e exibe ou oculta o botão "Limpar Tudo" 
     document.getElementById("limparTudo").style.display = tarefas.length > 0 ? "inline-block" : "none";
 };
 
