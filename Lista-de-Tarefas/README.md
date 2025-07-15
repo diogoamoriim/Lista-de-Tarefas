@@ -12,10 +12,6 @@ Este é um projeto simples e funcional de **lista de tarefas (To-Do List)** cria
 - 🔔 Feedback visual com mensagens de sucesso e erro
 - 👁️ Exibição dinâmica do botão “Limpar Tudo” apenas quando há tarefas
 
-## 📸 Preview
-
-![tela do projeto](caminho/da/imagem.png) <!-- substitua pelo caminho ou link real -->
-
 ## 🚀 Tecnologias Utilizadas
 
 - HTML5
